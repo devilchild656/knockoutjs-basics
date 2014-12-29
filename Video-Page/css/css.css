@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+
+    width: 550px;
+    margin: 0 auto;
+
+}
+#video{
+    margin: 0 auto;
+    display: block;
+
+}
+.video{
+    display: none;
+    transition: width 2s;
+}
+.video-comment{
+    margin-top: 20px;
+}
+.video-comment a{
+    color:#2cb8d7;
+    padding: 10px;
+    text-decoration: none;
+}
+.video-comment a span{
+    color: #56595d;
+    margin-left: 5px;
+
+}
+.video-comment a:hover{
+    background: #2cb8d7;
+    color: #b230bd;
+    border-radius: 10px;}
+
+#delete{
+    float: right;
+    padding: 7px;
+    background: #373737;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+
+    margin-left: 10px;
+}
+
+#edit{
+    float: right;
+    padding: 7px;
+    background: #ea455c;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#delete:hover{
+    background: #2cb8d7;
+    color: #b230bd;
+}
+#edit:hover{
+    background: #2cb8d7;
+    color: #b230bd;
+}
+.video-comment textarea{
+    width: 510px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: 1px solid silver;
+    resize: none;
+}
+.video-comment textarea:focus{
+    outline: none;
+}
+
+.line{
+    border: 1px solid #e6e6e6;
+}
+.comment-container{
+    padding-top: 20px;
+}
+.comment-profile{
+    width: 540px;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.profile-pic{
+    width: 50px;
+    float: left;
+}
+#profile-pic{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+}
+#info-short{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.text-container{
+    padding: 5px;
+    border-left: 7px solid #e6e6e6;
+
+}
+.text-container:hover{
+    border-left: 7px solid #c6c6c6;
+}
+
+.profile-text{
+    display: inline-block;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.attribute{
+    height: 40px;
+}
+.attribute a{
+    text-decoration: none;
+    color: #2cb8d7;
+    padding: 10px;
+
+}
+.attribute a span{
+    color: #56595d;
+    margin-left: 5px;
+}
+.attribute a:nth-child(4){
+    float: right;
+    color: #b6b6b6;
+}
+.attribute a:hover{
+    background: #2cb8d7;
+    color: #b230bd;
+    border-radius: 10px;
+
+}
+
+.reply{
+    padding: 10px;
+    width: 520px;
+    border-left: 7px solid #e6e6e6;
+    position: relative;
+
+}
+
+.reply:hover{
+    border-left: 7px solid #c6c6c6;
+}
+.reply span{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+.reply-text{
+    width: 510px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    resize: none;
+}
+.reply-text:focus{
+    outline: none;
+}
+
+.feedback span:hover{
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: rgb(82, 80, 80);
+    cursor: pointer;
+}
+
+.arrow-up{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 35px;
+    top: 34px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid silver;
+}

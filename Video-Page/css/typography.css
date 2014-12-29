@@ -1,0 +1,62 @@
+
+@font-face {
+
+    font-family:sansBold;
+    src: url(../resource/fonts/PTC75F.ttf);
+
+}
+@font-face {
+    font-family:sansLight;
+    src: url(../resource/fonts/PTN57F.ttf);
+
+}
+@font-face {
+    font-family:sansLightItalic;
+    src: url(../resource/fonts/PTS56F.ttf);
+
+}
+.name{
+    color: #2ab7d7;
+    font-size: 1.4em;
+}
+.date{
+    font-family: sansLight;
+    color: #c6c6c6;
+    font-size: 0.8em;
+}
+.attribute a span{
+    font-family: sansBold;
+    font-size: 0.8em;
+}
+
+.profile-text{
+    font-family: sansLight;
+}
+.feedback span{
+    font-family: sansBold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+textarea{
+    font-family: sansLightItalic;
+    font-size: 1.3em;
+    font-weight: inherit;
+}
+#video{
+    font-family: sansLightItalic;
+    font-size: 1.3em;
+}
+.video-comment a span{
+    font-family: sansBold;
+    font-size: 0.8em;
+}
+#edit{
+    font-family: sansBold;
+    font-size: 1em;
+    text-align: center;
+}
+#delete{
+    font-family: sansBold;
+    font-size: 1em;
+    text-align: center;
+}
